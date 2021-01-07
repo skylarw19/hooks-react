@@ -1,6 +1,6 @@
 const Test = () => {
     return (  
-        <p>hello</p>
+        <p>hello testing github auth</p>
     );
 }
  
