@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Test from './components/Test'
+import TextInputWithFocusButton from './components/TextInputWithFocusButton'
 
 function App() {
   return (
     <div className="App">
-      <Test />
+      <TextInputWithFocusButton />
     </div>
   );
 }
