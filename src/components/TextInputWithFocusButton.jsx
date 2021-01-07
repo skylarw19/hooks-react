@@ -8,7 +8,6 @@ const TextInputWithFocusButton = () => {
 
     return (  
         <>
-            <p>hello testing github auth</p>
             <input ref={inputEl} type="text" />
             <button onClick={onButtonClick} >Focus the input</button>
         </>
