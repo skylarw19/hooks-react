@@ -2,14 +2,14 @@ import {useRef} from 'react'
 
 const TextInputWithFocusButton = () => {
     const inputEl = useRef(null);
-    const onButtonClick = () => {
+    const focusInput = () => {
         inputEl.current.focus()
     };
 
     return (  
         <>
             <input ref={inputEl} type="text" />
-            <button onClick={onButtonClick} >Focus the input</button>
+            <button onClick={focusInput} >Focus the input</button>
         </>
     );
 }
