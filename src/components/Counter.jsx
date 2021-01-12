@@ -14,7 +14,7 @@ const Counter = () => {
 
     return (  
         <>
-            <p>The component has been re-rendered {counter.current} times.</p>
+            <p>useEffect The component has been re-rendered {counter.current} times.</p>
         </>
     );
 }
