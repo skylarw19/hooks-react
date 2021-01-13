@@ -8,8 +8,10 @@ const TextInputWithFocusButton = () => {
 
     return (  
         <>
+            <h3>TextInputWithFocusButton</h3>
             <input ref={inputEl} type="text" />
             <button onClick={focusInput} >Focus the input</button>
+            <br/>
         </>
     );
 }

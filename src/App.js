@@ -3,6 +3,7 @@ import './App.css';
 import TextInputWithFocusButton from './components/TextInputWithFocusButton'
 import Counter from './components/Counter'
 import RenderCount from './components/RenderCount'
+import PrevState from './components/PrevState'
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <TextInputWithFocusButton />
       <br/>
       <RenderCount />
+      <br/>
+      <PrevState/>
     </div>
   );
 }
