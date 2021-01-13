@@ -12,6 +12,8 @@ const PrevState = () => {
     }, [name])
     // want to run this every time name changes, so 2nd argument is [name]
     // altho I tried it without a 2nd arg, and it looks like it still works??
+    // tldr; this is a great way to store prev state without causing re-render
+    // --> In a func component, you need to use refs to persist values b/w renders if you're not using state
 
     return ( 
         <>
